@@ -1,0 +1,15 @@
+#gradient {
+    background-image: linear-gradient(
+      to right,
+      rgba(205, 112, 245, 1),
+      rgba(34, 86, 172, 1)
+    );
+  }
+
+  #modalgradient {
+    background-image: linear-gradient(
+      to right,
+      rgba(155, 104, 223, 1),
+      rgba(85, 94, 194, 1)
+    );
+  }
