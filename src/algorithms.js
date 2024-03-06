@@ -11,7 +11,7 @@ export const algorithms = {
     this.isFetchingData.value = true;
     try {
       const response = await axios.get(
-        "https://algorithm-projectb-app-b4e38abe3588.herokuapp.com/"
+        "https://algorithm-projectb-app-b4e38abe3588.herokuapp.com/api/v1/algorithms/"
       );
       this.algorithmObjects = response.data;
       this.isFetchingData.value = false;
