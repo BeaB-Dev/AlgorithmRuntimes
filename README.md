@@ -1,35 +1,18 @@
-# algorithm-runtimes
+# Algorithm Runtimes
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple web application for comparing the runtimes of common programming algorithms.
 
-## Recommended IDE Setup
+### About
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This app displays information on common programming algorithms, including pseudocode and use cases. It's written in Vue 3 and uses Bulma to simplify styling.
+**Note:** Currently, when the browser reloads on the /algorithms page the full (currently short) list of algorithms will load.
 
-## Customize configuration
+### Usage
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. From the home page, search for an algorithm via the search bar or click on Searching Algorithms or Sorting Algorithms to select multiple. The Algorithms page will load and display the selected choices.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+2. On the Algorithms page, select a tile and click the through the carousel. The following information is available:
+    - Description
+    - Time Complexity
+    - Use Cases
+    - Pseudocode
